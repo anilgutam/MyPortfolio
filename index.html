@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Web Site</title>
+</head>
+<body>
+     <div class="container">
+        <header class="head">
+            <section class="title"><h1>Anil Kumar</h1></section>
+            <section class="navbar">
+                <ul class="navlist">
+                    <li class="navitem1"><a href="#home" class="home">Home</a></li>
+                    <li class="navitem2"><a href="#about" class="about">About</a></li>
+                    <li class="navitem3"><a href="#skills" class="projects">Skills</a></li>
+                    <li class="navitem4"><a href="#contact" class="contact">Contact</a></li>
+                </ul>
+            </section>
+           
+            <button class="menuicon" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                <svg width="40" height="40" viewBox="0 0 100 100">
+                  <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                  <path class="line line2" d="M 20,50 H 80" />
+                  <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+              </button>
+        </header>
+       
+        <!-- menu icon end -->
+
+        <main class="middle" id="home" data-aos="fade-down" >
+            <section class="main" >
+                <h1 class="intro" >Hello There <br> I am  Anil Kumar & <br> I'm a Web Developer</h1>
+                <img src="./assets/computer.png" alt="programmer" class="computer">
+            </section>
+            <!-- <article class="rightside"></article> -->
+        </main>
+
+        <!-- About container -->
+
+        <section class="aboutcontainer" id="about">
+            <h1 class="allheadings aboutme">About Me</h1>
+            <article class="photoframe">
+                <div class="picturecontainer" data-aos="fade-right">
+                    <img class="profilepic" src="./assets/programming.jpg" alt="profilepic" width="1000">
+                </div>
+                
+                <p class="aboutdata" data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis in cum optio commodi impedit quis non, facilis deserunt inventore?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odit porro exercitationem impedit aliquid quasi quos dolore nulla iure pariatur minima adipisci officia ratione suscipit mollitia eaque tempora illum voluptatibus doloribus quod, autem ab accusantium maiores tempore! Illo temporibus eius nam? Quo inventore quod error soluta sequi incidunt doloremque aut?
+                </p>
+            </article>
+        </section>
+
+        <!-- Project container -->
+
+                    <!--===== SKILLS =====-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title allheadings">Skills</h2>
+        
+                        <div class="skills__container bd-grid" data-aos="fade-left">          
+                            <div>
+                                <!-- <h2 class="skills__subtitle allheadings">Profesional Skills</h2> -->
+                                    <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-html5 skills__icon'></i>
+                                        <span class="skills__name">HTML5</span>
+                                    </div>
+                                    <div class="skills__bar skills__html">
+        
+                                    </div>
+                                    <!-- <div>
+                                        <span class="skills__percentage">95%</span>
+                                    </div> -->
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-css3 skills__icon'></i>
+                                        <span class="skills__name">CSS3</span>
+                                    </div>
+                                    <div class="skills__bar skills__css">
+                                        
+                                    </div>
+                                    <!-- <div>
+                                        <span class="skills__percentage">85%</span>
+                                    </div> -->
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-javascript skills__icon' ></i>
+                                        <span class="skills__name">JAVASCRIPT</span>
+                                    </div>
+                                    <div class="skills__bar skills__js">
+                                        
+                                    </div>
+                                    <!-- <div>
+                                        <span class="skills__percentage">65%</span>
+                                    </div> -->
+                                </div>
+                                <!-- <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxs-paint skills__icon'></i>
+                                        <span class="skills__name">UX/UI</span>
+                                    </div>
+                                    <div class="skills__bar skills__ux">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">85%</span>
+                                    </div> -->
+                                </div>
+                            </div>
+                            
+                            <div data-aos="fade-right">              
+                                <img src="./assets/coding.jpg" alt="" class="skills__img" width="1000">
+                            </div>
+                        </div>
+                    </section>
+        
+        
+        
+        <!-- contact container -->
+
+        <section class="contactcontainer" id="contact">
+                <h2 class="section-title allheadings">Contact</h2>
+
+                <div class="contact__container bd-grid" data-aos="fade-up">
+                    <form  action="" id="myform" class="contact__form">
+                        <input type="text" id = "empname"  placeholder="Name" class="contact__input">
+                        <input type="mail" id="empmail"  placeholder="Email" class="contact__input">
+                        <textarea  cols="0" rows="10" id="empmessage"   placeholder="Message" class="contact__input"></textarea>
+                        <div class="btnborder">
+                        <input type="button" id="submitbtn"  value="Submit" class="contact__button button">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Anil Kumar</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2021  all copyrights reserved</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_78yPO4kKTfchkQn5qumTh");
+})();
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset:400,
+      duration:1000,
+  });
+</script>
+</body>
+</html>
