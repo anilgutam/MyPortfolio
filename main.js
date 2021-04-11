@@ -33,3 +33,5 @@ document.querySelector('#submitbtn').addEventListener('click', () =>{
     alert('your Message has been Successfully Sent');
 })
 
+// ============> Dark Mode <=============== //
+document.querySelector('.btn-toggle').addEventListener('click', () =>document.body.classList.toggle('light'))
